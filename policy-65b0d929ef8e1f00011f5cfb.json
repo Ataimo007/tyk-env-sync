@@ -1,0 +1,44 @@
+{
+  "_id": "65b0d929ef8e1f00011f5cfb",
+  "id": "65b0d929ef8e1f00011f5cfb",
+  "name": "Expire Http Policy",
+  "org_id": "65180fdbb6015c0001c8d037",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "bcdb7a73d2f74d76454738357127a2d1": {
+      "api_name": "Expire Http Bin",
+      "api_id": "bcdb7a73d2f74d76454738357127a2d1",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2024-01-24T09:32:25.01382Z",
+  "tags": [
+    "expire"
+  ],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1706089843",
+  "meta_data": {}
+}

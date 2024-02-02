@@ -1,0 +1,42 @@
+{
+  "_id": "65180fdbb6015c0001c8d03a",
+  "id": "65180fdbb6015c0001c8d03a",
+  "name": "Default Security Policyy",
+  "org_id": "65180fdbb6015c0001c8d037",
+  "rate": 2,
+  "per": 10,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": 0,
+  "access_rights": {
+    "e3aa5d591fb841a767b95a893826198a": {
+      "api_name": "Httpbin",
+      "api_id": "e3aa5d591fb841a767b95a893826198a",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2023-09-30T12:08:59.266936Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "complexity": false,
+    "acl": false,
+    "per_api": false
+  },
+  "last_updated": "1696075739",
+  "meta_data": {}
+}

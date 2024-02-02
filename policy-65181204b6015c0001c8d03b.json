@@ -1,0 +1,54 @@
+{
+  "_id": "65181204b6015c0001c8d03b",
+  "id": "65181204b6015c0001c8d03b",
+  "name": "Default JWT Policy",
+  "org_id": "65180fdbb6015c0001c8d037",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "0f0e31107a3645036bb58c765821bcd7": {
+      "api_name": "Plugin Http Bin",
+      "api_id": "0f0e31107a3645036bb58c765821bcd7",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    },
+    "2caf78d5232143ca6752f118da83608b": {
+      "api_name": "Bundle Http Bin",
+      "api_id": "2caf78d5232143ca6752f118da83608b",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2023-09-30T12:18:12.715756Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1696078379",
+  "meta_data": {}
+}
